@@ -4,7 +4,7 @@ A tiny GPT client with no dependencies.
 
 ## Installation
 
-composer require diversen/tiny-gpt-client
+    composer require diversen/tiny-gpt-client
 
 ## Usage
 
