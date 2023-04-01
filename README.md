@@ -24,7 +24,7 @@ should be exact.
 
 ## Usage example
 
-See: [example](example/index)
+See: [example](example/index.php)
 
 ## License
 
