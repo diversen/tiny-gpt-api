@@ -5,7 +5,7 @@ namespace Diversen\GPT;
 class ApiResult
 {
 
-    public string $tokens_used = '0';
+    public int $tokens_used = 0;
     public string $content = '';
     public array $array;
     public int $error_code = 0;
