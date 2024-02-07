@@ -12,12 +12,12 @@ final class OpenApiTest extends TestCase
     {
 
         $params = array (
-            'model' => 'text-davinci-003',
+            'model' => 'gpt-3.5-turbo-instruct',
             'max_tokens' => 10,
             'temperature' => 0,
             'n' => 1,
             // 'stream' => false,
-            'prompt' => 'Say "Hello world!" and nothing more',
+            'prompt' => 'Say "Hello world!" and nothing more.',
         );
 
         $api_key = file_get_contents('./api_key.txt');
